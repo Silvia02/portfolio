@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.af41927e.chunk.css",
+    "main.js": "/portfolio/static/js/main.3c97fe6a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3c97fe6a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.bcd5af5a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.bcd5af5a.js.map",
+    "static/js/2.8adca4f6.chunk.js": "/portfolio/static/js/2.8adca4f6.chunk.js",
+    "static/js/2.8adca4f6.chunk.js.map": "/portfolio/static/js/2.8adca4f6.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.af41927e.chunk.css.map": "/portfolio/static/css/main.af41927e.chunk.css.map",
+    "static/js/2.8adca4f6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8adca4f6.chunk.js.LICENSE.txt",
+    "static/media/171-1718042_javascript-logo-png-transparent-png.4bdf535d.png": "/portfolio/static/media/171-1718042_javascript-logo-png-transparent-png.4bdf535d.png",
+    "static/media/index.css": "/portfolio/static/media/Caribbean-beach.b4c07861.jpeg",
+    "static/media/html.bff4db1b.jpeg": "/portfolio/static/media/html.bff4db1b.jpeg",
+    "static/media/me.18cdc8f1.jpg": "/portfolio/static/media/me.18cdc8f1.jpg",
+    "static/media/react.ef20e673.png": "/portfolio/static/media/react.ef20e673.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcd5af5a.js",
+    "static/js/2.8adca4f6.chunk.js",
+    "static/css/main.af41927e.chunk.css",
+    "static/js/main.3c97fe6a.chunk.js"
+  ]
+}
