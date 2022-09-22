@@ -34,11 +34,6 @@ return (
       {open && (
         <Ul open={open}>
           <li>
-            <Link smooth to="#About">
-              About
-            </Link>
-          </li>
-          <li>
             <Link smooth to="#Skills">
               Skills
             </Link>
@@ -49,7 +44,7 @@ return (
             </Link>
           </li>
           <li>
-            <Link smooth to="#section">
+            <Link smooth to="#social-footer">
              Contact
             </Link>
           </li>
