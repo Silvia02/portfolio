@@ -73,7 +73,7 @@ const Skills = () => {
   return (
     <>
       <Section id="Skills">
-        <h1>Courses</h1>
+        <h1>Important Courses</h1>
         <div className="box">
           <Title className="Html">
             <img src={html} alt="imghtml" />
@@ -87,7 +87,7 @@ const Skills = () => {
             The purpose is to lay a good foundation in the two main languages
             and the common tools, as one frontend developers work daily with.{" "}
             <br />
-            Date: 2020-08-24 -2020-10-02
+           
           </p>
           <hr />
         </div>
@@ -106,7 +106,7 @@ const Skills = () => {
             modern web development. Read and write JavaScript with the latest
             ECMA standard.
             <br />
-            Date: 2020-10-05 - 2020-11-13
+        
           </p>
           <hr />
         </div>
@@ -125,7 +125,7 @@ const Skills = () => {
             to be able to satisfy theirs needs and expectations. How
             collaboration between market / sales can contribute to delivering
             solid values the target group. <br />
-            Date: 2021-10-11 - 2021-11-19
+           
           </p>
           <hr />
         </div>
