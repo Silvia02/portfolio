@@ -4,10 +4,14 @@ import styled from "styled-components";
 const Section = styled.section`
   display: flex;
   margin-top: 0;
-  height: 700px;
+  height: 400px;
   justify-content: center;
   text-align: center;
-  //margin: auto;
+
+
+  @media (max-width: 600px) {
+    height: auto;
+  }
 
 
   .boxProject {
