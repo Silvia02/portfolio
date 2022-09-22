@@ -2,41 +2,6 @@
 import styled from "styled-components";
 import { device } from "./Devices";
 
-/********Home styles*******/
-// export const DivHome = styled.div`
-//   display: flex;
-//   flex-wrap: wrap;
-//   margin: 200px auto;
-//   width: 60%;
-//   justify-content: start;
-//   border: 10px solid black;
-//   -webkit-box-shadow: 4px 17px 15px 6px #000000;
-//   box-shadow: 4px 17px 15px 7px #000000;
-//   background-color: black;
-
-//   img {
-//     margin: auto;
-//     width: 20%;
-//   }
-//   .textMe {
-//     display: flex;
-//     margin: auto;
-//     font-size: 1rem;
-//     line-height: 1.4em;
-//   }
-//   @media only screen and (max-width: 768px) {
-//     width: 100%;
-//     display: flex;
-//     justify-content: center;
-//     img {
-//       width: 100%;
-//     }
-//     .textMe {
-//       width: 100%;
-//       height: 100%;
-//     }
-//   }
-// `;
 
 //NAVBAR styles
 export const Nav = styled.nav`
@@ -156,7 +121,6 @@ export const TitleAbout = styled.h1`
 export const FooterSection = styled.div`
   padding: 1rem;
   background: black;
-  opacity: 0.8;
   display: flex;
   justify-content: center;
   flex-direction: row;

@@ -6,12 +6,11 @@ import react from "../../../images/react.png";
 import UX from "../../../images/ux-ui.png";
 
 const Section = styled.section`
-  background: linear-gradient(to left, #333, orange 75%, orange 55%, #333 100%);
-  margin: auto;
+  background: linear-gradient(to left, black, orange 40%, orange 55%, black 100%);
+  margin: 100px 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 50%;
   padding: 1rem;
 
 
@@ -38,7 +37,7 @@ const Section = styled.section`
   h1 {
     margin-bottom: 20px;
     margin-top: 10px;
-    color: black;
+    color: hotpink;
     font-size: 2rem;
     text-align: center;
     width: 100%;
@@ -48,7 +47,6 @@ const Section = styled.section`
   /* On screens that are 992px wide or less, go from four columns to two columns */
   @media screen and (max-width: 768px) {
     width: 100%;
-    //background-color: black;
     height: 100%;
         #skills {
           width: 100%;

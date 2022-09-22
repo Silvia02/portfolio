@@ -3,50 +3,60 @@ import styled from "styled-components";
 
 const Section = styled.section`
   display: flex;
-  margin: auto;
-  width: 100%;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 0;
+  height: 700px;
   justify-content: center;
-  border-radius: 20px;
+  text-align: center;
+  //margin: auto;
 
 
   .boxProject {
+    margin-top: 0;
     padding: 20px;
-    margin-bottom: 20px;
     color: white;
-    width: 50%;
+    width: 100%;
     height: 100%;
     background-color: black;
-    margin-top: 50px;
     opacity: 0.7;
-    border: solid 19px orange;
-    border-radius: 1em;
-   
-
   }
   h1 {
-    margin-top: -20px;
+    margin-top: 100px;
     color: hotpink;
-    line-height: 1.5em;
-    font-size: 1rem;
-    text-align: center;
-    margin-bottom: 20px; 
+    line-height: 1rem;
+    font-size: 2rem;
+    margin-bottom: 60px; 
     text-decoration: underline; 
+  }
+  .project-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+  }
+  .project-title{
+    width: 50%;
+    display: flex;
+    justify-content:center;
   }
 
   .boxProject p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: initial;
+
+    
   }
   .boxProject a {
     padding: 20px;
     text-decoration: none;
-    color: pink;
+    color: hotpink;
+    margin-top: 10px;
   }
   a:hover {
-    color: hotpink;
+    color: orange;
   a:hover {
-      color:hotpink;
+      color:orange;
 }
 
 `;
@@ -62,7 +72,6 @@ const Projects = () => {
         <div className="boxProject">
           <h1>Projects</h1>
           <List className="project-list">
-            <h3>Description:</h3>
             <p className="project-title">
               An application built in React.js, TypeScript, REST API and scss.
             </p>
@@ -71,7 +80,6 @@ const Projects = () => {
             </a>
           </List>
           <List className="project-list">
-            <h3>Description:</h3>
             <p className="project-title">
               A simple application called Nail Polish built with REST API, clean
               javascript, html and css.
