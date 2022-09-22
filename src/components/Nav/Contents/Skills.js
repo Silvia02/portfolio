@@ -6,13 +6,18 @@ import react from "../../../images/react.png";
 import UX from "../../../images/ux-ui.png";
 
 const Section = styled.section`
-  background: linear-gradient(to left, black, orange 40%, orange 55%, black 100%);
+  background: linear-gradient(
+    to left,
+    black,
+    orange 40%,
+    orange 55%,
+    black 100%
+  );
   margin: 100px 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 1rem;
-
 
   .box {
     padding: 40px;
@@ -48,16 +53,16 @@ const Section = styled.section`
   @media screen and (max-width: 768px) {
     width: 100%;
     height: 100%;
-        #skills {
-          width: 100%;
-          //background-color: black;
-      };
+    #skills {
+      width: 100%;
+      //background-color: black;
+    }
     .box {
       font-size: 0.9rem;
       background-color: black;
     }
-  };
-    
+  }
+
   @media (max-width: 600px) {
     width: 100%;
     //background-color: black;
@@ -87,7 +92,6 @@ const Skills = () => {
             The purpose is to lay a good foundation in the two main languages
             and the common tools, as one frontend developers work daily with.{" "}
             <br />
-           
           </p>
           <hr />
         </div>
@@ -106,7 +110,6 @@ const Skills = () => {
             modern web development. Read and write JavaScript with the latest
             ECMA standard.
             <br />
-        
           </p>
           <hr />
         </div>
@@ -125,7 +128,6 @@ const Skills = () => {
             to be able to satisfy theirs needs and expectations. How
             collaboration between market / sales can contribute to delivering
             solid values the target group. <br />
-           
           </p>
           <hr />
         </div>
@@ -141,7 +143,6 @@ const Skills = () => {
             frameworks, which are common in the profession. The course also
             includes elements of backend techniques to clarify how an entire web
             application is structured and works. <br />
-            Date: 2021-02-15 - 2021-04-09
           </p>
         </div>
       </Section>
