@@ -1,43 +1,42 @@
 /*  */
 import styled from "styled-components";
+import { device } from "./Devices";
 
 /********Home styles*******/
-export const DivHome = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  margin: 200px auto;
-  width: 60%;
-  justify-content: start;
-  border: 10px solid black;
-  -webkit-box-shadow: 4px 17px 15px 6px #000000;
-  box-shadow: 4px 17px 15px 7px #000000;
-  background-color: black;
+// export const DivHome = styled.div`
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin: 200px auto;
+//   width: 60%;
+//   justify-content: start;
+//   border: 10px solid black;
+//   -webkit-box-shadow: 4px 17px 15px 6px #000000;
+//   box-shadow: 4px 17px 15px 7px #000000;
+//   background-color: black;
 
-  img {
-    margin: auto;
-    width: 20%;
-  }
-  .textMe {
-    display: flex;
-    margin: auto;
-    font-size: 1rem;
-    line-height: 1.4em;
-  }
-  @media only screen and (max-width: 768px) {
-    width: 100%;
-   display: flex;
-   justify-content: center;
-    img {
- 
-      width: 100%;
-    }
-    .textMe {
-      width: 100%;
-      height: 100%;
-   
-    }
-  }
-`;
+//   img {
+//     margin: auto;
+//     width: 20%;
+//   }
+//   .textMe {
+//     display: flex;
+//     margin: auto;
+//     font-size: 1rem;
+//     line-height: 1.4em;
+//   }
+//   @media only screen and (max-width: 768px) {
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     img {
+//       width: 100%;
+//     }
+//     .textMe {
+//       width: 100%;
+//       height: 100%;
+//     }
+//   }
+// `;
 
 //NAVBAR styles
 export const Nav = styled.nav`
@@ -45,6 +44,7 @@ export const Nav = styled.nav`
   height: 80px;
   padding: 0 20px;
   display: flex;
+  margin-bottom: 200px;
   font-family: Arial, Helvetica, sams-serif;
   .logo {
     padding: 20px 0;
@@ -151,68 +151,65 @@ export const TitleAbout = styled.h1`
   //margin-bottom: 20px;
 `;
 
-/**********ABOUT************/
-export const DivAbout = styled.div`
+//*********FOOTER*******///
+
+export const FooterSection = styled.div`
+  padding: 1rem;
+  background: black;
+  opacity: 0.8;
   display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 200px;
+  margin: auto;
+`;
 
-  .divAbout {
-    color: white;
-    line-height: 1.4em;
-    margin: auto;
-    font-size: 1.1rem;
-  }
+export const DivSocial = styled.div`
+  display: flex;
+  margin: auto;
+  flex-direction: row;
 
-  @media (min-width: 1024px) {
-    .divAbout {
-      margin-top: 50px;
-      width: 50%;
-    }
-  }
-  @media (max-width: 600px) {
-    .divAbout {
+  .menu-simple {
+    display: flex;
+    flex-direction: row;
+
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
       margin: 20px;
     }
   }
-`;
-//*********FOOTER*******///
-export const FooterSection = styled.section`
-  min-height: 200px;
-  margin-top: 100px;
-  opacity: 0.8;
-  background-color: #0d2538;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-
-  .divSocial {
-    display: flex;
-    align-items: center;
+  li {
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    font-size: 1.3rem;
+    list-style: none;
   }
 
-  .divSocial a {
+  li a {
+    margin: 10px;
     color: white;
-    padding: 3em 0 0 2em;
   }
-  a:hover {
-    color: hotpink;
+  li:hover a {
+    color: orange;
+    transition: color 0.3s ease-in;
   }
+`;
 
-  .divContact {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 60px;
-  }
+export const DivCopy = styled.div`
+  display: flex;
+  margin: auto;
 
   span {
+    margin: 20px;
     color: white;
-    padding: 40px;
+    font-size: 1rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    pading: 10px;
+
+    span {
+      margin: 5px;
+    }
   }
 `;
-
-export const DivSocial = styled.div``;
-
-export const DivCopy = styled.div``;

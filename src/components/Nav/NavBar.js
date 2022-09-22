@@ -1,7 +1,7 @@
 import React from "react"
 import Burger from "./Burger";
 import Silvialoga from '../../images/Silvialoga.png'
-import {Nav} from '../Styles.js'
+import {Nav} from '../../styles/Styles.js'
 
 const NavBar = () => {
   return (

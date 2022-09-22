@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import { DivWrapper, StyledBurger, Ul } from "../Styles.js";
+import { DivWrapper, StyledBurger, Ul } from "../../styles/Styles.js";
 
 
 const Burger = () => {
