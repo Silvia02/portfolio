@@ -42,7 +42,7 @@ const Section = styled.section`
   h1 {
     margin-bottom: 20px;
     margin-top: 10px;
-    color: hotpink;
+    color: black;
     font-size: 2rem;
     text-align: center;
     width: 100%;

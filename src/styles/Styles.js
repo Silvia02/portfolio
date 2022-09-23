@@ -2,14 +2,13 @@
 import styled from "styled-components";
 import { device } from "./Devices";
 
-
 //NAVBAR styles
 export const Nav = styled.nav`
   width: 100%;
   height: 80px;
   padding: 0 20px;
   display: flex;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   font-family: Arial, Helvetica, sams-serif;
   .logo {
     padding: 20px 0;
@@ -19,8 +18,10 @@ export const Nav = styled.nav`
     width: 80%;
   }
   @media only screen and (max-width: 700px) {
+    margin-bottom: 0;
     .logo img {
-      width: 80%;
+      width: 50%;
+      margin-top: -35px;
     }
   }
 `;
@@ -32,8 +33,9 @@ export const DivWrapper = styled.div`
   }
     @media only screen and (max-width: 768px) {
    ul {
-    width: 150px;
-      height: 100vh;  
+      width: 150px;
+      height: 100vh; 
+      z-index: 1; 
 
   }
 `;
@@ -53,7 +55,7 @@ export const StyledBurger = styled.div`
   div {
     width: 2rem;
     height: 0.25rem;
-    background-color: ${({ open }) => (open ? "#ccc" : "#333")};
+    background-color: ${({ open }) => (open ? "#ccc" : "white")};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
@@ -71,6 +73,7 @@ export const StyledBurger = styled.div`
 `;
 
 export const Ul = styled.ul`
+  z-index: 1;
   li {
   display: flex;
   justify-content: start;
