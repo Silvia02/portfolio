@@ -6,26 +6,37 @@ import react from "../../../images/react.png";
 import UX from "../../../images/ux-ui.png";
 
 const Section = styled.section`
-  background: linear-gradient(
-    to left,
-    black,
-    orange 40%,
-    orange 55%,
-    black 100%
-  );
-  margin: 100px 0 auto;
+  // background: linear-gradient(
+  //   to left,
+  //   black,
+  //   orange 10%,
+  //   black 100%,
+  //   black 90%
+
+  //   );
+  background: #A36A00;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 1rem;
+  opacity: 0.9;
+
 
   .box {
     padding: 40px;
-    width: 70%;
+    width: 60%;
     margin: auto;
     color: white;
+    border-radius: 30px;
+    background: black;
+    -webkit-letter-spacing: normal;
+    -moz-letter-spacing: normal;
+    -ms-letter-spacing: normal;
     letter-spacing: normal;
     line-height: 1.5em;
+
     strong {
       color: black;
     }

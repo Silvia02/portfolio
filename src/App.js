@@ -11,8 +11,8 @@ export default function App() {
       <>
         <NavBar />
         <Home />
-        <Skills />
         <Projects />
+        <Skills />
         <Footer />
       </>
     </Router>

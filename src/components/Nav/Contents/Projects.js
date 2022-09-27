@@ -25,7 +25,7 @@ const Section = styled.section`
   }
   h1 {
     margin-top: 100px;
-    color: hotpink;
+    color: orange;
     line-height: 1rem;
     font-size: 2rem;
     margin-bottom: 60px; 
@@ -54,13 +54,11 @@ const Section = styled.section`
   .boxProject a {
     padding: 20px;
     text-decoration: none;
-    color: hotpink;
+    color: orange;
     margin-top: 10px;
   }
   a:hover {
-    color: orange;
-  a:hover {
-      color:orange;
+    color: hotpink;
 }
 
 `;
@@ -80,7 +78,7 @@ const Projects = () => {
               An application built in React.js, TypeScript, REST API and scss.
             </p>
             <a href="https://silvia02.github.io/beer-pagination/">
-              Go to this project...
+              Go to this project...😎 
             </a>
           </List>
           <List className="project-list">
@@ -89,7 +87,7 @@ const Projects = () => {
               javascript, html and css.
             </p>
             <a href="https://silvia02.github.io/Nail_app/">
-              Go to this project...
+              Go to this project...😎 
             </a>
           </List>
         </div>
